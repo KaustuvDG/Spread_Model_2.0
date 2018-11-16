@@ -1,0 +1,31 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     y_EM_Spread_total_rtn   R-squared:                       0.540
+Model:                               OLS   Adj. R-squared:                  0.511
+Method:                    Least Squares   F-statistic:                     18.22
+Date:                   Fri, 16 Nov 2018   Prob (F-statistic):           7.01e-14
+Time:                           11:27:29   Log-Likelihood:                 326.14
+No. Observations:                     99   AIC:                            -640.3
+Df Residuals:                         93   BIC:                            -624.7
+Df Model:                              6                                         
+Covariance Type:               nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+x_SPX_total_rtn           0.1435      0.039      3.695      0.000       0.066       0.221
+x_Oil_total_rtn           0.0277      0.014      2.035      0.045       0.001       0.055
+x_DXY_total_rtn          -0.0860      0.051     -1.683      0.096      -0.188       0.015
+x_UST_10Y_total_rtn     -13.4914      4.869     -2.771      0.007     -23.160      -3.823
+x_IG_Spread_total_rtn   -14.2875     18.670     -0.765      0.446     -51.362      22.787
+x_HY_Spread_total_rtn    17.5565     12.375      1.419      0.159      -7.018      42.131
+==============================================================================
+Omnibus:                        4.870   Durbin-Watson:                   2.044
+Prob(Omnibus):                  0.088   Jarque-Bera (JB):                4.937
+Skew:                          -0.529   Prob(JB):                       0.0847
+Kurtosis:                       2.725   Cond. No.                     2.05e+03
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.05e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
