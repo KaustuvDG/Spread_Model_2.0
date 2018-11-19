@@ -1,0 +1,27 @@
+                              OLS Regression Results                             
+=================================================================================
+Dep. Variable:     y_EM_Spread_total_rtn   R-squared:                       0.547
+Model:                               OLS   Adj. R-squared:                  0.534
+Method:                    Least Squares   F-statistic:                     40.47
+Date:                   Sun, 18 Nov 2018   Prob (F-statistic):           3.36e-22
+Time:                           10:05:57   Log-Likelihood:                 368.80
+No. Observations:                    138   AIC:                            -729.6
+Df Residuals:                        134   BIC:                            -717.9
+Df Model:                              4                                         
+Covariance Type:               nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+x_Oil_total_rtn           0.0370      0.015      2.529      0.013       0.008       0.066
+x_DXY_total_rtn          -0.1005      0.063     -1.587      0.115      -0.226       0.025
+x_VIX_total_rtn          -0.0323      0.007     -4.640      0.000      -0.046      -0.019
+x_HY_Spread_total_rtn     0.2969      0.040      7.504      0.000       0.219       0.375
+==============================================================================
+Omnibus:                       52.381   Durbin-Watson:                   1.801
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              555.036
+Skew:                           0.926   Prob(JB):                    2.99e-121
+Kurtosis:                      12.649   Cond. No.                         9.93
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
